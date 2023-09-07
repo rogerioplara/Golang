@@ -1,0 +1,7 @@
+Também é possível baixar pacotes externos, vindos do github
+
+Para isso, no console -> utilizar o comando "go get url_github"
+
+go get url_github -> baixa os pacotes que deseja inserir no projeto -> esses pacotes serão colocados no arquivo go.mod e poderão ser importados onde desejar usar
+
+go mod tidy -> elimina todos os pacotes não utilizados no projeto
