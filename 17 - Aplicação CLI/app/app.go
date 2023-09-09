@@ -48,7 +48,7 @@ func Gerar() *cli.App {
 	return app
 }
 
-// Função da ação que será executada
+// Função da ação que será executada para buscar ips
 func buscarIps(c *cli.Context) {
 	host := c.String("host")
 
@@ -63,6 +63,7 @@ func buscarIps(c *cli.Context) {
 	}
 }
 
+// Função da ação que será executada para buscar servidor
 func buscarServidores(c *cli.Context) {
 	host := c.String("host")
 
@@ -75,11 +76,3 @@ func buscarServidores(c *cli.Context) {
 		fmt.Println(servidor.Host)
 	}
 }
-
-/*
-Como rodar ex:
-go run main.go ip --host amazon.com.br
-go run main.go servidores --host amazon.com.br
-
-Como já está compilado num executável, só precisa utilizar o nome do arquivo ao invés de "go run main.go..."
-*/
