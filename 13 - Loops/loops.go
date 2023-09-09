@@ -25,8 +25,8 @@ func main() {
 	// O primeiro parâmetro sempre vai ser o índice, para ignorar é possível utilizar o _
 	nomes := [3]string{"João", "Davi", "Lucas"}
 
-	for _, value := range nomes {
-		fmt.Println(value)
+	for _, nome := range nomes {
+		fmt.Println(nome)
 	}
 	fmt.Println("---------")
 

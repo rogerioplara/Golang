@@ -12,7 +12,7 @@ func fibonacci(posicao uint) uint {
 
 func main() {
 	/*
-		Funçõe recursivas chamam elas mesmas
+		Funções recursivas chamam elas mesmas
 		Ex: Sequência de fibonacci -> o próximo número é sempre a soma dos dois números anteriores
 		1 1 2 3 5 8 13
 	*/
