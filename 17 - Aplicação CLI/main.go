@@ -7,10 +7,13 @@ import (
 )
 
 /*
-Esta aplicação busca ips públicos de sites que desejar
+Esta aplicação busca ips públicos e servidores de hospedagem de sites que desejar
 
 Como rodar ex:
 go run main.go ip --host amazon.com.br
+go run main.go servidores --host amazon.com.br
+
+Como já está compilado num executável, só precisa utilizar o nome do arquivo ao invés de "go run main.go..."
 */
 func main() {
 	aplicacao := app.Gerar()
