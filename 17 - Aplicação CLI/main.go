@@ -20,5 +20,4 @@ func main() {
 	if erro := aplicacao.Run(os.Args); erro != nil {
 		log.Fatal()
 	}
-
 }
