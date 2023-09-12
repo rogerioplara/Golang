@@ -5,14 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        h2 {
+            color: blue;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
     <h2>Página Principal</h2>
 
-    <marquee>
-        <h4>Seja bem vindo, {{ .Nome }}</h4>
-    </marquee>
+    <button id="botao">Clique em mim!</button>
+
+    <script>
+
+        var botao = document.getElementById("botao")
+        botao.onclick = () => {
+            alert("Botão clicado com sucesso!")
+        }
+
+    </script>
 </body>
 
 </html>
@@ -24,7 +39,7 @@
         Email: "..."
     }
 
-    Ao utiizar {{ .Nome }} O HMTL renderiza o que foi pasado na variável
+    Ao utiizar CHAVES DUPLAS O HMTL renderiza o que foi pasado na variável
     Pode ser considerado um escape do html
-    É possível fazer ifs, avaliar condições, criar variáveis dentro do {{  }}
+    É possível fazer ifs, avaliar condições, criar variáveis dentro do 
  -->

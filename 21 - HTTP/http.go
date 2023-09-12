@@ -13,6 +13,10 @@ Dessa forma, o que precisa ser feito é no http.HandleFunc(), passar os parâmet
 O que importa nesse caso são os parâmetros W e R
 r - request / w - response
 */
+func raiz(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Página Raiz"))
+}
+
 func home(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Olá Mundo!"))
 }
@@ -41,7 +45,8 @@ func main() {
 				Put: atualizar dados
 				Delete: deletar dados
 	*/
-
+	// Handler raiz
+	http.HandleFunc("/", raiz)
 	// Essa função faz handler do URI - Request e Reponse no /home
 	http.HandleFunc("/home", home)
 	// dessa forma que funciona o roteamento das páginas
