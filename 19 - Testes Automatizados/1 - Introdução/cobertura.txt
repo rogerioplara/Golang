@@ -1,0 +1,7 @@
+mode: set
+introducao-testes/enderecos/enderecos.go:6.45,20.36 5 1
+introducao-testes/enderecos/enderecos.go:20.36,21.40 1 1
+introducao-testes/enderecos/enderecos.go:21.40,23.4 1 1
+introducao-testes/enderecos/enderecos.go:26.2,26.29 1 1
+introducao-testes/enderecos/enderecos.go:26.29,28.3 1 1
+introducao-testes/enderecos/enderecos.go:30.2,30.25 1 0

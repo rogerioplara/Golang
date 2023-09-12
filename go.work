@@ -4,4 +4,5 @@ use (
 	"./01 - Pacotes"
 	"./17 - Aplicação CLI"
 	"./19 - Testes Automatizados/1 - Introdução"
+	"./19 - Testes Automatizados/2 - Teste Avançado"
 )
